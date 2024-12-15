@@ -1,5 +1,5 @@
 plugins {
-    kotlin("multiplatform") version "1.9.22"
+    kotlin("multiplatform") version "1.8.0"
     id("com.android.library")
     id("com.squareup.sqldelight")
 }
