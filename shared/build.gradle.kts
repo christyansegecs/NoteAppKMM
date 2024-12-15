@@ -35,7 +35,12 @@ kotlin {
                 implementation("com.squareup.sqldelight:android-driver:1.5.3")
             }
         }
-        val androidTest by getting
+        val androidTest by getting {
+            dependencies {
+                implementation("androidx.test.ext:junit:1.1.3")
+                implementation("androidx.test.espresso:espresso-core:3.4.0")
+            }
+        }
         val iosX64Main by getting
         val iosArm64Main by getting
         val iosSimulatorArm64Main by getting
