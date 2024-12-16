@@ -1,9 +1,9 @@
 package com.example.noteappkmm.di
 
-import com.example.noteappkmm.data.local.DatabaseDriverFactory
-import com.example.noteappkmm.data.note.SqlDelightNoteDataSource
-import com.example.noteappkmm.database.NoteDatabase
-import com.example.noteappkmm.domain.note.NoteDataSource
+import com.example.noteappkm.data.local.DatabaseDriverFactory
+import com.example.noteappkm.data.note.SqlDelightNoteDataSource
+import com.example.noteappkm.database.NoteDatabase
+import com.example.noteappkm.domain.note.NoteDataSource
 
 class DatabaseModule {
 
