@@ -35,9 +35,9 @@ android {
             isMinifyEnabled = false
         }
     }
-    task printJavaVersion {
+    tasks.register("printJavaVersion") {
         doLast {
-            println "Java version: " + System.getProperty("java.version")
+            println("Java version: ${System.getProperty("java.version")}")
         }
     }
 }
