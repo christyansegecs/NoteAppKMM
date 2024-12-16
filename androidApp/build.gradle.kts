@@ -35,6 +35,11 @@ android {
             isMinifyEnabled = false
         }
     }
+    task printJavaVersion {
+        doLast {
+            println "Java version: " + System.getProperty("java.version")
+        }
+    }
 }
 
 dependencies {
